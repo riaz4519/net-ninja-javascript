@@ -1,0 +1,296 @@
+3.JavaScript Tutorial For Beginners 03 - Hello World! in JavaScript
+
+    -simple alert
+
+        start with a <script></script> tag
+
+        <script>
+
+            alert('data)
+
+        </script>
+
+4.JavaScript Tutorial For Beginners #4 - Where to put your JS  
+
+    -where to put JS
+
+        -usully in end of the body tag 
+
+    -type of JS
+
+        -internal 
+            -it placed on the same page of the html.small script
+        -external
+
+            -external script are made outside in another file and linked.long script
+
+                <script src="link.js"></script>
+
+5.JavaScript Tutorial For Beginners #5 - Google Chrome Developer Tools
+
+6.JavaScript Tutorial For Beginners #6 - Basic JavaScript Syntax & Rules
+
+    -JavaScript is case sensitive
+
+    -statement
+
+    -top to bottom
+
+    -comment
+
+    -semicolon
+
+7.JavaScript Tutorial For Beginners #7 - JavaScript Variables
+
+    -define variable 
+
+        var name;
+        -contains 
+            latters 
+            numbers 
+            underscrore
+
+            *do no start with numbers
+
+    -variable Syntax
+        -camelcase
+
+            -myName
+
+    -types of variable
+
+        -integer
+        -float
+        -double 
+        -string
+        -boolean
+        -array
+        -object
+
+    -what is the type of the variable   
+
+        typeof(nameOftheVariable)
+    **always name the variable which make sense
+
+        example : personAge = 23;
+
+    -JavaScript is dynamic variable type because its variable type can be changed
+
+
+8.JavaScript Tutorial For Beginners #8 - Basic Mathematical Operators
+
+    -assignment = 
+    -additional +
+    -subtraction -
+    -divide /
+    -multi *
+
+    -*concatenate
+
+        var name = 'fahim;
+
+        var age = 25;
+
+        console.log('my name is '+name+'age is '+age);
+
+9.JavaScript Tutorial For Beginners #9 - Math Operator Short-hand 
+
+10.JavaScript Tutorial For Beginners #10 - Logging to the Console
+
+    -write to the document 
+
+        document.write(data);
+
+    -write to the console
+
+        console.log(data)
+
+
+11.JavaScript Tutorial For Beginners #11 - Booleans in JavaScript
+
+    represent true or false
+
+    var iLikeMeat = true;
+
+    -comparason
+
+        7 > 5 = true
+
+        7 < 5 = true
+
+        7 == 7 = true
+
+    Boolean()  
+12.JavaScript Tutorial For Beginners #12 - If Statements
+
+    if(statement){
+
+    }
+
+    // if its not true 
+
+    else{
+
+    }
+
+13.JavaScript Tutorial For Beginners #13 - Else If Statements
+
+    if we have to check more then one condition 
+
+    if(statement){
+
+    }
+    else if(statement){
+
+
+    }
+    else{
+
+    }
+
+14.JavaScript Tutorial For Beginners #14 - Comparison Operators
+
+    ==  equal to
+
+    === equal value and type
+
+    != not equal
+
+    !== not equal value or not equal type
+
+    > greater than 
+
+    < less than
+    
+    >= greater than or equal to
+
+    <= less than or equal to
+
+
+15.JavaScript Tutorial For Beginners #15 - Logical Operators
+
+    && ||
+
+16.JavaScript Tutorial For Beginners #16 - While Loops
+
+    While(){
+
+         
+    }
+
+17.JavaScript Tutorial For Beginners #17 - For Loops
+
+    for(age = 5; age< 10 ;i++){
+
+
+    }
+
+    -getting tag value with loop 
+
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        <a href="#">Link 4</a>
+        <a href="#">Link 5</a>
+
+
+        *getting all the valu anchor tag
+        var links = document.getElementByTagName('a');
+
+
+18.JavaScript Tutorial For Beginners #18 - Break & Continue
+
+
+19.JavaScript Tutorial For Beginners 19 - Practical Example using Loops
+
+    -addin class to the a tag
+
+    
+    var links = document.getElementsByTagName('a');
+
+
+    for(i= 0;i < links.length; i++){
+
+        links[i].className = "kubj"+i;
+
+    }
+
+20.JavaScript Tutorial For Beginners #20 - Functions
+
+    function nameOftheFunction(param1,param2,param..){
+
+        //fuction can log a value 
+        //return a value
+
+    }
+
+
+21.JavaScript Tutorial For Beginners #21 - Variable Scope
+
+    -global 
+
+        var name = "fahim";
+
+        fuction myFunction(){
+
+            var yourName = "riaz";
+        }
+
+        here name is global scope and yourName is local scope
+
+22.JavaScript Tutorial For Beginners #22 - Numbers
+
+
+    //math function
+
+        Math.round();
+        Math.floor();
+        Math.ceil();
+        Math.max();
+        Math.PI;
+
+        many more
+
+23.JavaScript Tutorial For Beginners - NaN (Not a Number)
+
+    isNaN() 
+
+24.JavaScript Tutorial For Beginners #24 - Strings
+
+    var myString = 'i am having "fun"';
+
+    -escape 
+
+    var myEscape = 'i\'m having fun';
+
+    -length of string
+
+        myString.length
+
+    -methods of string
+
+        myString.toUpperCase();
+
+        myString.toLowerCase();
+
+        myString.indexOf("latter or string");
+
+            -will return  -1 is there is no occurance
+
+        -compare string
+
+            var string1 = "abc";
+
+            var string2 = "cba";
+
+            compare is case sensitive
+
+            **its possible to compare the position 
+
+                string < string2
+
+25.JavaScript Tutorial For Beginners #25 - Slice and Split Strings
+
+
+
+
