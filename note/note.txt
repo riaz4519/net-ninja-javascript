@@ -292,5 +292,177 @@
 25.JavaScript Tutorial For Beginners #25 - Slice and Split Strings
 
 
+    -Slice
+
+        -slice method slice a string .thats how much you want to take from a string
+
+            var name = "fahim md riaz"
+
+            var slicedName = name.slice(startingPoint,endPoint);
+
+            //remember string index start from 0 
+
+                name.slice(3,7);//return im md
+        -slice with  single value
+
+            name.slice(2)
+
+            -it will return ther string start from index 2 and the rest
+
+        **mdn is a very good website for trying JavaScript
+
+        -split method
+            -is use for spliting string in a endPoint
+
+            var testString = "fahim md riaz,naiem md riyadh,mukim md niaz"
+
+            var newArray = testString.split(",")
+
+            //the spliting point is ","
+
+             and the array we will get is ['fahim md riaz','naiem md riyadh','mukim md niaz'];
+
+26.JavaScript Tutorial For Beginners #26 - Arrays
+
+    array is a collection of items .array maintaain index .staring with 0.
+
+    -declear 
+
+        var array = [];
+
+    -declear 
+
+        var array = new Array();
+
+    -assignment with index base
+
+        array[0] = "this is a number";
+
+        array[1] = true;
+
+        array[2] = 2.3;
+
+    -array with a define number of index
+
+        var array = new Array(5);
+
+        it can only have 5 index in total staring from 0 - 4
+
+    -array length
+
+        array.length
+
+    -method that we can use 
+
+        -sort
+            array.sort();
+        -reverse 
+
+            array.reverse();
+
+        //many more
+
+
+
+27.JavaScript Tutorial For Beginners #27 - Introduction to Objects
+
+
+    property and method
+
+    -string object  
+
+        var myString = new String();
+
+        myString = "hello";
+
+        -now we can use property and function
+
+            myString.length //return the length the length
+
+            myString.toLowerCase() //action which will meke the value to upper case
+
+            and many more
+
+28.JavaScript Tutorial For Beginners #28 - Creating a new JavaScript Object
+
+        -working little bit with  Array Object
+
+            var myArray = new Array();
+
+            myArray[0] = 8;
+
+            myArray[1] = "hello"
+
+            then apply Array object property and methods
+
+        - how to declear new object 
+
+            var myCar = new Object();
+
+            -//property
+
+                myCar.maxSpeed = 50;
+                myCar.driver = "shaun";
+
+                console.log(myCar.driver);
+            -fuction to object
+
+                myCar.drive = function(){
+
+                    console.log('now drive');
+                }
+
+                //calling
+                myCar.drive()
+
+            -Short hand notation of object
+
+                var myCar = {
+                    maxSpeed:50,
+                    driver:"fahim",
+                    drive:function(){
+
+                    }
+                }
+
+29.JavaScript Tutorial For Beginners #29 - THIS Keyword
+
+    this Keyword represent the whole class that we are in . so if we are in a class and 
+    want to access a property we do it with "this"
+
+                    var myCar = {
+                    maxSpeed:50,
+                    driver:"fahim",
+                    drive:function(){
+
+                            console.log(this.driver);
+                    }
+                }
+
+30.JavaScript Tutorial For Beginners #30 - Constructor Functions
+
+            var Car = function(variable if needed){
+
+
+                    this.maxSpeed = speed;
+
+                    this.myFunction =function (){
+
+                    }
+
+            }
+
+            //call from outside
+
+            var car1 = new Car() //pass the param if have any
+
+            -access
+
+            car1.myFunction()
+
+JavaScript Tutorial For Beginners #31 - The Date Object
+
+
+
 
 
