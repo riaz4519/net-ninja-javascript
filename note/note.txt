@@ -462,6 +462,11 @@
 
 JavaScript Tutorial For Beginners #31 - The Date Object
 
+    -the date object
+    var myDate = new Date();
+
+    -pass parameter to create date
+
 
 
 
