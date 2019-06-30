@@ -460,12 +460,73 @@
 
             car1.myFunction()
 
-JavaScript Tutorial For Beginners #31 - The Date Object
+31.JavaScript Tutorial For Beginners #31 - The Date Object
 
     -the date object
     var myDate = new Date();
 
     -pass parameter to create date
+
+    var myPastdate = new Date(1545,11,2);
+
+    //date parameters 
+
+        new Date(year,month,day,hour,minutes,seconds)
+
+    -date Functions
+
+        var date  = new Date(year,month,day,hour,minutes,seconds);
+
+        date.getDate();
+        date.getHours();
+
+32.JavaScript Tutorial For Beginners #32 - What is the DOM in JavaScript?
+
+    DOM - document object model
+
+        -we can play with html document via DOM
+
+    -document 
+
+        the document is just the web page
+    
+    -object
+        every element is a object
+
+    -model  
+
+        how the element is lay downed
+
+    -nodes 
+
+        everything that we can change in the document is a nodes
+
+            -elements
+            -test within elements
+            -HTML attributes
+
+33.JavaScript Tutorial For Beginners #33 - Traversing the DOM
+
+    -get element by className
+
+        var contents = document.getElementByClassName('content');
+
+    -get element by getElementByTagName
+
+        var  myTag = contents[1].getElementByTagName('h2');
+
+    -innerHTML get the datas
+        myTag[0].innerHTML = "give a value";
+
+    -get element by id
+
+        var getById = document.getElementById('page-title');
+
+
+         
+
+
+
 
 
 
