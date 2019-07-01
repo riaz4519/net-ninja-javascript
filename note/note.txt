@@ -525,6 +525,40 @@
 
          
 
+34.JavaScript Tutorial For Beginners #34 - Changing Page Content
+
+    -innerHTML
+
+        var myBody = document.getElementsByTagName("body");
+
+        console.log(body);
+
+        -now if we want to get all the innert elements from the body tag    
+
+            myBody[0].innerHTML
+
+        -replace to bodys innerHTML
+
+            myBody[0].innerHTML = "<p>tada</p>" 
+
+    -textContent
+
+        this change the inner text
+
+        var myText = document.getElementById('page-title');
+
+        //get the content
+
+            myText.textContent; // it will return just the text inside an html element
+
+        //change the text content
+
+            myText.textContent = 'the text content';
+
+
+35.JavaScript Tutorial For Beginners #35 - Changing Element Attributes
+
+
 
 
 
