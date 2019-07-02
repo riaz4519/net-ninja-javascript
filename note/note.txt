@@ -558,6 +558,88 @@
 
 35.JavaScript Tutorial For Beginners #35 - Changing Element Attributes
 
+    -getAttribute method for graving element attributes
+
+        var link = document.getElementById('test');
+
+        link.getAttribute('class');
+
+        link.getAttribute('href');
+
+        link.getAttribute('title');
+
+        link.getAttribute('id');
+    
+    -setAttribute
+
+        setting attributes mean setting a attributes with value
+
+        link.setAttribute('title','whatever');
+
+    -directly getting attributes lile property
+
+        link.href
+
+        link.class
+
+        link.id
+
+        and many more
+    
+    -adding new class to the existing class
+
+        link.classList.add('fsfsdf');
+
+
+36.JavaScript Tutorial For Beginners #36 - Changing CSS Styles
+
+    -link.setAttribute("style",'position:relative');
+
+    but to add to the existing style we do
+
+        link.style.color = "red";
+
+        link.style.left = "30px";
+
+    **the style with high-fen will be in camel case
+
+        like background-color
+
+        link.style.backgroundColor = "red";
+
+37.JavaScript Tutorial For Beginners #37 - Adding Elements to the DOM
+
+    -creating a new element
+
+        var newLi = document.createElement('li');
+    -adding it to the ul
+
+        -getting the ul
+
+            var ul = document.getElementsByTagName('ul')[0];
+
+    -now append the li to ul
+
+        ul.appendChild(newLi);
+
+        -adding innerHTML
+
+            newLi.innerHTML = "FSDFSf";
+
+    -now if we want to add the element to start
+
+        ul.insertBefore(newLi,ul.getElementsByTagName[0]);
+
+38.JavaScript Tutorial For Beginners #38 - Removing Elements from the DOM
+    
+
+
+
+
+
+
+
+
 
 
 
