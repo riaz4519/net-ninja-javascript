@@ -631,20 +631,57 @@
         ul.insertBefore(newLi,ul.getElementsByTagName[0]);
 
 38.JavaScript Tutorial For Beginners #38 - Removing Elements from the DOM
+
+    -first select the file to remove
+
+        var parent =document.getElementsByTagName('ul')[0];
+
+        var child  = document.getElementsByTagName('li')[0];
+
+        var remove = parent.removeChild(child);
+
+    --and if we want we can add the removed element to the parent again
+
+        parent.appendChild(remove);
+
+39.JavaScript Tutorial For Beginners # 39 - Introduction to JavaScript Events
     
+    -get the element first
+
+        var title = document.getElementById('title');
+
+        title.onclick = function(){
+
+            //do something 
+
+        };
+
+    //and many more
+
+40.JavaScript Tutorial For Beginners #40 - The onClick Event
+
+    -getting the button and the content
+
+        var button = document.getElementById('clickM');
+
+        var content = document.getElementById('content');
 
 
+        button.onclick = function(){
+
+        if(content.className == 'open'){
+
+            content.className = '';
+
+            button.innerHtml = 'show more'
 
 
+        }else{
 
+            content.className = 'open';
 
+            button.innerHtml = 'show less';
 
+        }
 
-
-
-
-
-
-
-
-
+        }
