@@ -685,3 +685,29 @@
         }
 
         }
+
+41.JavaScript Tutorial For Beginners #41 - Window onLoad Event
+
+	-window.onload = function(){
+
+	}
+	
+	-this function is use for making sure that the javascript load after all the things have been loader first 
+	to the dom
+
+42.JavaScript Tutorial For Beginners #42 - JavaScript Timers 
+
+	-setTimeout(nameOfTheFunction,time)
+		
+		this function setTimeout work just one time .
+	-setInterval(functionExecute,time);
+		-it will run over and over again every the given time
+	
+	-stop the setInterval
+
+		var myTimer = setInterVal(function,time);
+		
+		clearInterval(myTimer);
+		
+			
+ 
