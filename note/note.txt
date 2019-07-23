@@ -708,6 +708,35 @@
 		var myTimer = setInterVal(function,time);
 		
 		clearInterval(myTimer);
+
+43.JavaScript Tutorial For Beginners #43 - Accessing Form Elements
+
+	-accessing the form 
+		
+		<form name="myForm">
+        </form>
+
+        document.forms.myForm
+
+    -accessing the form input fields
+
+        var myForm  = document.forms.myForm;
+
+        var inputVal = myform.nameOfTheInputfield
+
+    -get the value
+
+          var value = inputVal.value
+
+    -giving form element functionality
+
+            myForm.name.onfocus = function(){
+
+                  myForm.name.stye.border = "4px solid pink";
+            }
+
+
+
 		
 			
  
